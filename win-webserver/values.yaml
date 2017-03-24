@@ -9,4 +9,6 @@ image:
 service:
   name: win-webserver
   type: LoadBalancer
+  externalPort: 80
+  internalPort: 80
 
